@@ -21,22 +21,22 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about">
                 About
             </Link>
           </li>
           <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills">
                 Skills
           </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+            <Link to="projects">
               Projects
             </Link>
           </li>
           <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact">
               Contact Me
           </Link>
           </li>
@@ -53,22 +53,22 @@ const Navbar = () => {
             </Link></li>
           <li className='py-6 text-4xl'>
             {' '}
-            <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            <Link onClick={handleClick} to="about">
                 About
             </Link></li>
           <li className='py-6 text-4xl'>
             {' '}
-            <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            <Link onClick={handleClick} to="skills">
                 Skills
           </Link></li>
           <li className='py-6 text-4xl'>
             {' '}
-            <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+            <Link onClick={handleClick} to="projects">
               Projects
             </Link></li>
           <li className='py-6 text-4xl'>
             {' '}
-            <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            <Link onClick={handleClick} to="contact">
               Contact Me
           </Link></li>
         </ul>
@@ -83,7 +83,7 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
                   <a className='flex justify-between items-center w-full text-gray-300'
-                  href="/">
+                  href="https://github.com/okikiola-jkt" target='_blank'>
                     Github <FaGithub size={30}/>
                   </a>
                 </li>

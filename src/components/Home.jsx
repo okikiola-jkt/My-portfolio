@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import work from "./work";
+import {Link} from 'react-scroll'
 
 const Home = () => {
+    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
+    
     return (
         <div name='home' className='w-full h-screen bg-[#0a192f]'>
 
@@ -11,18 +16,20 @@ const Home = () => {
                 <h1 className='text-4xl sm:text-7xl font-bold text-white'>Okiki Ojikutu</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Front-End Developer.</h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                    I excel in creating user-friendly and seamless web interfaces as a front-end developer, 
-                    and I have a track record of bringing conceptual ideas to life through my development skills. 
-                    When I am not working on web projects, I enjoy spending my free time playing golf.
+                Transforming Ideas into Intuitive Web Experiences: Front-End Developer with a Flair for Innovation
                 </p>
+
                 <div>
                 <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#DFAF67] hover:border-[#DFAF67]'>
-                    View Work 
-                    <span className='group-hover:rotate-90 duration-300'>
+                    <Link onClick={handleClick} to="projects">
+                        Projects
+                    </Link>
+                    <span href={{work}} className='group-hover:rotate-90 duration-300'>
                     <HiArrowNarrowRight className="ml-3" /> 
                     </span>
                 </button>
                 </div>
+              
 
             </div>
 
