@@ -70,6 +70,7 @@ const Navbar = () => {
               Contact Me
           </Link></li>
         </ul>
+        
          {/* Social media Icons */}
          <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
               <ul>

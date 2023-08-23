@@ -1,6 +1,4 @@
 import React, {useState} from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import work from "./work";
 import {Link} from 'react-router-dom'
 
 const Home = () => {

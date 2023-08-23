@@ -1,5 +1,6 @@
 import React from 'react'
 import Portfolio from '../assets/portfolio.png'
+import Wip from '../assets/wip.png'
 
 const work = () => {
   return (
@@ -20,21 +21,21 @@ const work = () => {
                         My Portfolio
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
+                        <a target='_blank' href="https://www.okikiola.dev">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href="/">
+                        <a target='_blank' href="https://github.com/okikiola-jkt/My-portfolio">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div style={{backgroundImage: `url(${Portfolio})`}} 
+            <div style={{backgroundImage: `url(${Wip})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 
                 <div className='opacity-0 group-hover:opacity-80'>
                     <span className='text 2xl font-bold text-white tracking-wider'>
-                        My Portfolio
+                        Coming soon
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
@@ -45,12 +46,12 @@ const work = () => {
                         </a>
                     </div>
                 </div>
-            </div><div style={{backgroundImage: `url(${Portfolio})`}} 
+            </div><div style={{backgroundImage: `url(${Wip})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 
                 <div className='opacity-0 group-hover:opacity-80'>
                     <span className='text 2xl font-bold text-white tracking-wider'>
-                        My Portfolio
+                        Coming soon
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
@@ -61,12 +62,12 @@ const work = () => {
                         </a>
                     </div>
                 </div>
-            </div><div style={{backgroundImage: `url(${Portfolio})`}} 
+            </div><div style={{backgroundImage: `url(${Wip})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 
                 <div className='opacity-0 group-hover:opacity-80'>
                     <span className='text 2xl font-bold text-white tracking-wider'>
-                        My Portfolio
+                        Coming soon
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
@@ -77,12 +78,12 @@ const work = () => {
                         </a>
                     </div>
                 </div>
-            </div><div style={{backgroundImage: `url(${Portfolio})`}} 
+            </div><div style={{backgroundImage: `url(${Wip})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 
                 <div className='opacity-0 group-hover:opacity-80'>
                     <span className='text 2xl font-bold text-white tracking-wider'>
-                        My Portfolio
+                        Coming soon
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
@@ -93,12 +94,12 @@ const work = () => {
                         </a>
                     </div>
                 </div>
-            </div><div style={{backgroundImage: `url(${Portfolio})`}} 
+            </div><div style={{backgroundImage: `url(${Wip})`}} 
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 
                 <div className='opacity-0 group-hover:opacity-80'>
                     <span className='text 2xl font-bold text-white tracking-wider'>
-                        My Portfolio
+                        Coming soon
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
