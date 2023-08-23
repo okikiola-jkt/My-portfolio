@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import work from "./work";
-import {Link} from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 const Home = () => {
     const [nav, setNav] = useState(false)
@@ -24,9 +24,6 @@ const Home = () => {
                     <Link onClick={handleClick} to="projects">
                         Projects
                     </Link>
-                    <span href={{work}} className='group-hover:rotate-90 duration-300'>
-                    <HiArrowNarrowRight className="ml-3" /> 
-                    </span>
                 </button>
                 </div>
               
