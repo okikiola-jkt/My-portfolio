@@ -13,7 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(serviceKey, templateKey , form.current, apiKey)
+    emailjs.sendForm( serviceKey, templateKey , form.current, apiKey)
     .then(() => {
       setIsEmailSent(true);
     })
@@ -29,7 +29,7 @@ const closePopup = () => {
   return (
     <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
       <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
-        <div className='pb-8'>
+        <div className='pb-8 sm:mt-[10rem]'>
             <p className='text-4xl font-bold inline border-b-4 border-[#DFAF67] text-gray-300'> Get In Touch </p>
             <p className='text-gray-300 py-4'> For more information submit the form below or send me and email - Okikiolaojikutue@gmail.com </p>
         </div>
