@@ -20,7 +20,7 @@ const work = () => {
                     <span className='text 2xl font-bold text-white tracking-wider'>
                         My Portfolio
                     </span>
-                    <div className='pt-8 text-center content-div hover:bg-gradient-to-r from-[rgba(112, 157, 255, 0.8)] to-[hsla(242, 74%, 61%, 0.8)]'>
+                    <div className='pt-8 text-center'>
                         <a target='_blank' href="https://www.okikiola.dev">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
