@@ -3,40 +3,40 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   
   return (
-    <div className= 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className= 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300'>
       <div>
         <img src={Logo} alt="Logo Image" style={{width: '135px'}}/>
       </div>
         <ul className='hidden md:flex'>
           <li className='hover:scale-110 duration-500'>
-            <Link to="/">
+            <Link to="home" smooth={true}>
               Home
             </Link>
           </li>
           <li className='hover:scale-110 duration-500'>
-            <Link to="about">
+            <Link to="about" smooth={true}>
                 About
             </Link>
           </li>
           <li className='hover:scale-110 duration-500'>
-          <Link to="skills">
+          <Link to="skills" smooth={true}>
                 Skills
           </Link>
           </li>
           <li className='hover:scale-110 duration-500'>
-            <Link to="projects">
+            <Link to="projects" smooth={true}>
               Projects
             </Link>
           </li>
           <li className='hover:scale-110 duration-500'>
-          <Link to="contact">
+          <Link to="contact" smooth={true}>
               Contact Me
           </Link>
           </li>
@@ -45,12 +45,12 @@ const Navbar = () => {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* mobile menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-10'}>
       <div>
         <img src={Logo} alt="Logo Image" style={{width: '135px'}}/>
       </div>
           <li className='py-6 text-4xl hover:scale-110 duration-500'>
-            <Link onClick={handleClick} to="/">
+            <Link onClick={handleClick} to="home">
               Home
             </Link></li>
           <li className='py-6 text-4xl hover:scale-110 duration-500'>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ffff]'>
                   <a className='flex justify-between items-center w-full text-gray-900'
-                  href="/contact">
+                  href="mailto:okikiolaojikutue@gmail.com">
                     Mail <HiOutlineMail size={30}/>
                   </a>
                 </li>

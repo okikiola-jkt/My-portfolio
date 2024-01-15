@@ -11,7 +11,7 @@ import Aws from '../assets/aws.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className="bg-[#0a192f] w-full h-screen text-gray-300 p-4">
+        <div name='skills' className="bg-[#000000] w-full h-screen text-gray-300 p-4">
                 <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                     <div>
                     <p className='text-4xl font-bold  inline border-b-4 border-[#DFAF67]'>Skills</p>
