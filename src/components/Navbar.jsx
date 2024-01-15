@@ -45,7 +45,7 @@ const Navbar = () => {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* mobile menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-10'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center z-10'}>
       <div>
         <img src={Logo} alt="Logo Image" style={{width: '135px'}}/>
       </div>
